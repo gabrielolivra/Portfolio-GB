@@ -519,9 +519,43 @@ transform: translateY(-8px);
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px){
 
     .imagem-01 img{display: none;}
+
+    inicio{display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        color: white;
+        padding: 130px;}
+        
+        .inicio .l-1{font-size: 28px;
+        font-weight: 200;
+        line-height: 0.3;}
+        
+        .inicio .l-2{font-size:40px;
+        font-weight: 600;
+        line-height: 0.3;}
+        
+        .inicio .l-3{font-size:28px;
+        font-weight: 200;
+        line-height: 0.8;
+        width: 21.3ch;
+        animation: typing 3s steps(79), blink .5s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 2px solid;
+        }
+        
+
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    .imagem-01 img{display: none;}
+
    
 
 .quem-sou p{width: 350px;}
@@ -556,4 +590,6 @@ transform: translateY(-8px);
   .header .menu-icon {
     display: none;
   }
+
+ 
 }
