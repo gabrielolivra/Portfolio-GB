@@ -520,6 +520,8 @@ transform: translateY(-8px);
 
 
 @media only screen and (max-width: 600px) {
+
+    .imagem-01 img{display: none;}
    
 
 .quem-sou p{width: 350px;}
